@@ -1162,9 +1162,6 @@ void CIrrDeviceWin32::createDriver()
 {
 	switch(CreationParams.DriverType)
 	{
-	case video::DEPRECATED_EDT_DIRECT3D8_NO_LONGER_EXISTS:
-		os::Printer::log("DIRECT3D8 Driver is no longer supported in Irrlicht. Try another one.", ELL_ERROR);
-		break;
 	case video::EDT_OPENGL:
 #ifdef _IRR_COMPILE_WITH_OPENGL_
 		switchToFullScreen();

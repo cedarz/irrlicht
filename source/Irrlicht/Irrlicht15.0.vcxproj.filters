@@ -1320,7 +1320,6 @@
     <None Include="..\..\readme.txt">
       <Filter>doc</Filter>
     </None>
-    <None Include="..\..\samples\HelloWorld.vcxproj" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CDefaultSceneNodeAnimatorFactory.cpp">

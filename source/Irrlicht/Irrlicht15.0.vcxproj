@@ -1256,7 +1256,6 @@
   <ItemGroup>
     <None Include="..\..\changes.txt" />
     <None Include="..\..\readme.txt" />
-    <None Include="..\..\samples\HelloWorld.vcxproj" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CB3DMeshWriter.cpp" />
