@@ -1,2 +1,17 @@
 # ignores following folders
+*.user
 /source/Irrlicht/obj/*
+/source/Irrlicht/.vs
+/source/Irrlicht/x64
+
+# bin
+*.ilk
+*.pdb
+*.dll
+
+# lib
+*.exp
+*.lib
+
+# samples
+/samples/*/x64
