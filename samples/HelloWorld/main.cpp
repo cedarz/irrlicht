@@ -95,7 +95,7 @@ int main()
 	following parameters:
 
 	- deviceType: Type of the device. This can currently be the Null-device,
-	   one of the two software renderers, D3D9, or OpenGL. In this
+	   one of the two software renderers, or OpenGL. In this
 	   example we use EDT_BURNINGSVIDEO, but to try out, you might want to
 	   change it to EDT_SOFTWARE, EDT_NULL, EDT_DIRECT3D9, or EDT_OPENGL.
 	   Generally you will want to use OpenGL or Direct3D as they are
@@ -127,7 +127,7 @@ int main()
 	dimensions, etc.
 	*/
 	IrrlichtDevice *device =
-		createDevice( video::EDT_BURNINGSVIDEO, dimension2d<u32>(640, 480), 16,
+		createDevice( video::EDT_OPENGL, dimension2d<u32>(640, 480), 16,
 			false, false, false, 0);
 
 	if (!device)
